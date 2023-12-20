@@ -1,0 +1,42 @@
+.our-section{
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+
+.our{
+    padding-top: 127px;
+    background-image: url(../../images/our-collection-section-bg-img.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+}
+
+.our__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our__item{
+    width: 255px;
+    text-align: center;
+}
+
+.our__title{
+    margin-top: 71px;
+    color: #333D4B;
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.our__text{
+    margin-top: 24px;
+    color: #333D4B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
