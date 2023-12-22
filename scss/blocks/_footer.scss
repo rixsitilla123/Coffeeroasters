@@ -1,0 +1,35 @@
+.site-footer{
+    padding: 47px 0;
+    background-color: #2C343E;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-list{
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-item{
+    margin-left: 33px;
+}
+
+.footer-link{
+    color: #83888F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    transition: color 0.5s linear;
+}
+
+.footer-link:hover{
+    color: #000;
+}

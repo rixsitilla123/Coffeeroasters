@@ -11,3 +11,11 @@ body{
     font-family: 'Barlow', sans-serif;
     background: #FEFCF7;
 }
+
+.btn:hover{
+    background-color: #66D2CF;
+}
+
+.btn:disabled{
+    background-color: #E2DEDB;
+}
