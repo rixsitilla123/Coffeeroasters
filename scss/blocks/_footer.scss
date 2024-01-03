@@ -33,3 +33,31 @@
 .footer-link:hover{
     color: #000;
 }
+
+@media only screen and (max-width: 945px){
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer-list{
+        margin-top: 35px;
+        margin-bottom: 65px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 630px){
+    .footer__logo-img{
+        width: 217px;
+        height: 24px;
+    }
+
+    .footer-list{
+        flex-direction: column;
+    }
+
+    .footer-item{
+        margin-top: 24px;
+        margin-left: 0;
+    }
+}

@@ -1,12 +1,8 @@
 .choose-section{
-    height: 577px;
+    height: 600px;
     position: relative;
     background-color: #2c343e;
     z-index: 1;
-}
-
-.choose{
-    text-align: center;
 }
 
 .choose-content{
@@ -50,9 +46,7 @@
 
 .choose-item{
     width: 350px;
-    height: 386px;
-    padding-top: 72px;
-    padding-bottom: 48px;
+    padding: 72px 47px 48px;
     text-align: center;
     border-radius: 8px;
     background-color: #0E8784;
@@ -68,6 +62,7 @@
 
 .choose-item-title{
     margin-top: 56px;
+    margin-bottom: 24px;
     color: #FEFCF7;
     font-family: "Fraunces", serif;
     font-size: 24px;
@@ -76,16 +71,84 @@
     line-height: 32px; 
 }
 
-.choose-item-text-wrap{
-    width: 255px;
-    margin: 0 auto;
-    margin-top: 24px;
-}
-
 .choose-item-text{
     color: #FEFCF7;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+}
+
+@media only screen and (max-width: 1150px){
+    .choose-list{
+        width: 90%;
+    }
+
+    .choose-item{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .choose-list{
+        flex-direction: column;
+    }
+
+    .choose-item{
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .choose-item-content{
+        width: 80%;
+        text-align: start;
+    }
+
+    .choose-item-title{
+        margin-top: 0;
+    }
+
+    .choose-item-text{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width: 630px){
+    .choose-content{
+        padding-top: 64px;
+    }
+
+    .choose-title{
+        margin-top: 0;
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .choose-text{
+        display: none;
+    }
+
+    .choose-content{
+        width: 80%;
+        text-align: center;
+    }
+
+    .choose-item{
+        width: 80%;
+        padding: 30px 0;
+        flex-direction: column;
+    }
+
+    .choose-item-content{
+        margin-top: 56px;
+        text-align: center;
+    }
+
+    .choose-item-title{
+        font-size: 24px;
+        line-height: 32px;
+    }
 }
